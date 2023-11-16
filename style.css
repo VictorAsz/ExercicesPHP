@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f6e8; /* Verde pastel suave */
+    margin: 0;
+}
+
+header {
+    background-color: #2e7d32; /* Verde escuro para contraste */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li a {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff; /* Branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #2e7d32; /* Verde escuro */
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #e8f6e8; /* Verde pastel suave ao passar o mouse */
+}
