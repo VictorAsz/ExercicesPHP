@@ -3,7 +3,13 @@ body {
     background-color: #e8f6e8; /* Verde pastel suave */
     margin: 0;
 }
-
+footer {
+    margin-top: 5vw; /* Margem superior responsiva */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw; /* Padding responsivo */
+}
 header {
     background-color: #2e7d32; /* Verde escuro para contraste */
     color: white;
@@ -40,4 +46,5 @@ li a {
 
 li a:hover {
     background-color: #e8f6e8; /* Verde pastel suave ao passar o mouse */
+
 }

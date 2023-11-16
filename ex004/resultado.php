@@ -22,7 +22,7 @@
         $cotacao = $dados["value"][0]["cotacaoCompra"];
         $resultado = $valor_real / $cotacao;
         $resultado_formatado = number_format($resultado, 2);
-        echo "<div class='container'>" . "<p> " . "R$" . $valor_real . " vale R$" . $resultado_formatado . " em dólares usando a cotação da API do Banco Central</p> </div>
+        echo "<div class='container'>" . "<p> " . "R$" . number_format($valor_real, 2, ",", ".") . " vale R$" . $resultado_formatado . " em dólares usando a cotação da API do Banco Central</p> </div>
         "
 
        

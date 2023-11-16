@@ -14,7 +14,7 @@
     echo "<div class='container'> <p> O seu número é: $num <p/> </div>"
     ?>
     <div class="container">
-    <button onclick="recarregarPagina()">Recarregar Página</button>
+    <button onclick="recarregarPagina()"> <p>Gerar novamente</p> </button>
     </div>
     <script>
         function recarregarPagina() {

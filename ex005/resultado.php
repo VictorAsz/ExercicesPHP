@@ -18,7 +18,7 @@
 
     echo " <p> Analisando o número  <strong>" 
     . number_format($num, 3, ",", ".") 
-    . " </strong>informado pelo usuário: </p>";
+    . " </strong>informado: </p>";
 
     echo "<ul><li>A parte inteira do número é <strong>"
     . number_format($int, 0, ",", ".")

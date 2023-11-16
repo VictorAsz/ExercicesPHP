@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<header><h1>Analisador de número real</h1></header>
+<header><h1>Analisador de número real:</h1></header>
     
     <form action="resultado.php" method="post">
         <label for="num"><p>Insira o Número</p></label>
-        <input type="number" name="num" placeholder="insira o número" step="0.001" required>
+        <input type="number" name="num" placeholder="insira o número aqui" step="0.001" required>
 
     <button type="submit" value="Analisar"> Analisar</button>
     </form>

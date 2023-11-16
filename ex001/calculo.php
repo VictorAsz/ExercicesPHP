@@ -15,6 +15,9 @@
     echo "<div class='container'> <p> o seu número é $num <br> e seu sucessor é $sucessor. <br> seu antecessor é $antecessor <p/> </div>"
     ?>
 
+<div class="container"> 
+        <button onclick="javascript:history.go(-1)">Voltar</button> 
+    </div>
     
 
     

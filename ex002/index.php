@@ -13,7 +13,7 @@
 
     
     <form action="random.php" method="get">
-    <button type="submit"> Gerar</button>
+    <button type="submit"> <h2>Gerar</h2></button>
     </form>
 
 </body>

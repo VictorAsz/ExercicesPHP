@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<header><h1>Conversor de Real para Dólar V2.0 agora com API</h1></header>
+<header><h1>Conversor de Real para Dólar com API</h1></header>
     
     <form action="resultado.php" method="get">
-        <label for="valor"><p>insira o valor</p></label>
-        <input type="number" name="valor" placeholder="insira o valor em reais" required>
+        <label for="valor"><p>Insira o valor:</p></label>
+        <input type="number" name="valor" placeholder="insira o valor em reais aqui" required>
 
     <button type="submit" value="converter"> Calcular</button>
     </form>

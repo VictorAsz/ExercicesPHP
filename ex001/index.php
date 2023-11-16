@@ -15,12 +15,13 @@
     
     
     <form action="calculo.php" method="get">
-    <label for="num"></label>
-    <input type="number" name="num" required>
+    <label for="num"> Insira o número o qual deseja saber o sucessor e antecessor:</label>
+    <input type="number" name="num" placeholder="insira o número aqui" required>
     <button type="submit"> Calcular</button>
     </form>
 
     </div>
+    
     
 </body>
 </html>
