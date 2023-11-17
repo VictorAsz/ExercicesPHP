@@ -26,19 +26,19 @@ $salario = $_GET['salario'] ?? 0;
 <div class="container">
 <?php 
 
-$salario_min = 1.320;
+$salario_min = 1_320;
 $resultado = intdiv($salario, $salario_min);
 $total = (int)($salario/$salario_min);
 $diff = $salario % $salario_min;
 
-echo "quem ganha $salario por mês, ganha um total de $total salários mínimos + $diff.";
-?>
-
-
-
-
+echo "quem ganha R$" . number_format($salario, 2, ",", ".") . " por mês, ganha um total de $total salários mínimos + R$" .  number_format($diff, 2, ",", ".");
 
 ?>
+
+
+
+
+
 </div>
 
 
