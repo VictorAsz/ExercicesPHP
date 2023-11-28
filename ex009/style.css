@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f6e8; /* Verde pastel suave */
+    margin: 0;
+}
+
+header {
+    background-color: #2e7d32; /* Verde escuro para contraste */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.container p span {
+    font-weight: bold;
+    color: #388e3c; /* Verde mais escuro para destaque */
+}
+
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="number"] {
+    width: calc(100% - 22px); /* Ajuste para o padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7d32; /* Verde escuro para combinar com o cabeçalho */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #388e3c; /* Verde mais escuro ao passar o mouse */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7d32; /* Verde escuro para combinar com o cabeçalho */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c; /* Verde mais escuro ao passar o mouse */
+}
