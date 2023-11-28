@@ -12,7 +12,7 @@
 <header><h1>Informe um número </h1></header>
 <div class="container">
     <?php 
-        $numero = $_GET['num'] ?? 0git;
+        $numero = $_GET['num'] ?? 0;
     ?>
 
 <main>
