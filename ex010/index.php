@@ -15,7 +15,7 @@
      $valor1 = isset($_GET['v1']) ? floatval($_GET['v1']) : 0;
      $peso1 = isset($_GET['p1']) ? floatval($_GET['p1']) : 1;
      $valor2 = isset($_GET['v2']) ? floatval($_GET['v2']) : 0;
-     $peso2 = isset($_GET['p2']) ? floatval($_GET['p2']) : 1git;
+     $peso2 = isset($_GET['p2']) ? floatval($_GET['p2']) : 1;
     ?>
     <main>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
