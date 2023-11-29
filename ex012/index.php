@@ -33,7 +33,7 @@
                 $aumento = $preco * $reaj / 100;
                 $novo = $preco + $aumento;
             ?>
-        <h2>Resultado do Reajuste</h2>
+        <h2>Resultado do Reajuste:</h2>
         <p> O produto que custava R$<?=number_format($preco, 2, ",",".")?>, com <strong><?=$reaj?>% de aumento</strong> vai passar a custar <strong>R$<?=number_format($novo, 2, ",",".")?></strong> a partir de agora.</p>
     </div>
     <script>

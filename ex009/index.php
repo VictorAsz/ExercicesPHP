@@ -25,7 +25,7 @@
 </div>
 
 <div class="container">
-    <p>Resultado final</p>
+    <p>Resultado final:</p>
     <?php 
         $raiz_quadrada = $numero ** (1/2);
         $raiz_cubica = $numero ** (1/3);
