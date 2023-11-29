@@ -1,4 +1,4 @@
-PHP exercises suggested by 'Curso em Vídeo' from the channel https://www.youtube.com/@CursoemVideo.
+PHP exercises suggested by 'Curso em Vídeo' from the channel  https://www.youtube.com/@CursoemVideo.
 
 ## Running the Code:
 
@@ -19,7 +19,7 @@ Make sure you have the following software installed on your machine:
 - Open your local web development environment (for example: Laragon).
 - Navigate to the folder where the exercises are located.
 
-////////////////////////////////////////////////////////////
+## 
 
 PT-BR:
 
