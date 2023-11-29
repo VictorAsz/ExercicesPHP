@@ -1,5 +1,3 @@
-PHP exercises suggested by 'Curso em Vídeo' from the channel  https://www.youtube.com/@CursoemVideo.
-
 ## Running the Code:
 
 To test this code, follow the instructions below:
@@ -19,11 +17,8 @@ Make sure you have the following software installed on your machine:
 - Open your local web development environment (for example: Laragon).
 - Navigate to the folder where the exercises are located.
 
-## 
+## PT-BR:
 
-PT-BR:
-
-ExercÍcios de php sugeridos pelo "Curso em Vídeo" do canal https://www.youtube.com/@CursoemVideo.
 
 ## Rodando o Código
 - Para testar este código, siga as instruções abaixo:
