@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ex014 Simulador de caixa eletrônico</title>
+    <title>ex014 Caixa eletrônico</title>
     <link rel="stylesheet" href="style.css">
     <style>
         img.nota {
